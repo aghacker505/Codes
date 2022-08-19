@@ -1,3 +1,5 @@
-Name = input('Whats is your name? ')
+Name = input('What is your name: ')
+age = input('What is your age: ')
 print('Hi' , Name)
+print('you are', age)
 # print('Hi ' + Name)

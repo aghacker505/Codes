@@ -11,4 +11,4 @@ A.close()
 
 A = open('write.txt', 'a')  #a used for append the function
 A.write("\n this line will append in the file")    #this will add the text in file      #as many time we run this command lines will add        
-A.close()
+A.close() 

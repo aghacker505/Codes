@@ -50,3 +50,10 @@ print('-------------------------------------------------------------------------
 #this will print the index of the elements of the array
 d = ar.index(30)
 print("The first occurence of the 30 the following array: ", d)
+
+print("----------------------------------------------------------------")
+
+#convert array into list using tolist() method
+list = ar.tolist()
+print("list: ", list)
+print("array: ", ar)

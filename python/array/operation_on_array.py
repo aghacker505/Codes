@@ -20,6 +20,26 @@ print("Number of occurences of 30 in the array: ", o)
 
 print("-------------------------------------------------------------------------")
 
+#this will extend the array
 ar1 = array('i', [60, 70, 80, 90, 100]) 
 ar.extend(ar1)
 print("here is the extended array: ", ar)
+
+print("------------------------------------------------------------------------------")
+
+#this will insert 25 at the 1st position 
+ar.insert(1, 25)
+print("This is array after insertion 25 at the first position",ar)
+
+print('-----------------------------------------------------------------------------------')
+
+#this will remove the elements from the array
+ar.remove(30)  #this will remove the only first occurence of 30   
+ar.remove(30)  #this will remove the second occurence of 30   
+print("This is the array after removing 30: ", ar)
+
+print('----------------------------------------------------------------------------------')
+
+p = ar.pop()
+print("Array element poped/removed: ",p)
+print("Array after removing poped element:", ar)

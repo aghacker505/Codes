@@ -35,11 +35,18 @@ print('-------------------------------------------------------------------------
 
 #this will remove the elements from the array
 ar.remove(30)  #this will remove the only first occurence of 30   
-ar.remove(30)  #this will remove the second occurence of 30   
+# ar.remove(30)  #this will remove the second occurence of 30   
 print("This is the array after removing 30: ", ar)
 
 print('----------------------------------------------------------------------------------')
 
+#remove last element of ethe array using pop() method
 p = ar.pop()
 print("Array element poped/removed: ",p)
 print("Array after removing poped element:", ar)
+
+print('---------------------------------------------------------------------------')
+
+#this will print the index of the elements of the array
+d = ar.index(30)
+print("The first occurence of the 30 the following array: ", d)

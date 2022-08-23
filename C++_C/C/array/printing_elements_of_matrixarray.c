@@ -10,7 +10,7 @@ void main()
     printf("Enter the elements of the matrix: ");
 
     for(row = 0; row <3; row++ )
-    {
+    {                                                       //we can also write row at the place of col and col at the place of row
         for (col = 0; col<3; col++)
         {
             scanf("%d", &a[row][col]);

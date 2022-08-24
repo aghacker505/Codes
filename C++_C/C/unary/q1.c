@@ -4,10 +4,11 @@
 int main()
 {
     int d;
-    int a = 1;
-    int b = 2;
+    int a = 10;
+    int b = 1;
 
     d = a++ + ++b;
-    printf("%d %d %d", d, a, b);
+    // d = a++ +++b;  this is wrong 
+    printf("%d %d %d", a, b, d);
     getch();
 }

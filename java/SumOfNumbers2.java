@@ -16,7 +16,7 @@ public class SumOfNumbers2
 
         sum = sum(x,y);
 
-        System.out.println("The sum of twp numbers x and y is: " + sum);
+        System.out.println("The sum of two numbers x and y is: " + sum);
     }
 
     public static int sum(int a, int b)

@@ -39,7 +39,7 @@ elif randNo == '3':
 you = input('''your's turn: 
 Choose between Snake(s), Gun (g) or Water(w): ''')
 
-print(f"computer choose {comp}")
+print(f"computer choose: ", comp)
 
 a = gamew(comp, you)
 if a == None:

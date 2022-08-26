@@ -20,6 +20,7 @@ print("the elements of array are: ")
 for item in arr:
     print(item)
 
+# print(arr) #this will print the array
 '''
 'i' for integers
 'd' for doubles

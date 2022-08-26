@@ -17,7 +17,7 @@ sum=0
 for x in marks:
     print(x)
     sum+=x
-print('Total marks of the',name,':', sum)
+print('Total marks of the',name,':', sum,)
 
 #display percentage
 n = len(marks)

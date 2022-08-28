@@ -1,9 +1,0 @@
-{
-    "files.associations": {
-        "*.cpp": "cpp",
-        "*.py": "python",
-        "conio.h": "c",
-        "stdio.h": "c",
-        "*.tcc": "c"
-    }
-}

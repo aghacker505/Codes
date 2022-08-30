@@ -13,18 +13,18 @@ for i in range(n):
 print("original array: ", a)
 
 # bubble shorting
-flag= False
+swapped= False
 for i in range(n-1):      # i is from 0 to n-1
     for j in range(n-1-i):    #j is from 0 to one element lesser than i
         if a[j] > a[j+1]:     #if 1st elemenst is bigger than the 2nd one
             t = a[j]
             a[j] = a[j+1]
             a[j+1] = t
-            flag = True
+            swapped = True
 
-    if flag == False:
+    if swapped == False:
         break
     else:
-        flag = False
+        swapped = False
 
 print("shorted array = ", a)

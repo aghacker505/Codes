@@ -11,7 +11,7 @@ class add
 }
 class ExAdd
 {
-    public static void main (String args[])
+    public static void main (String[] args)
     {
         add A1 = new add();
         A1.addnum(10,20);

@@ -9,7 +9,7 @@ E1 = Entry(windows, bd =5)
 E1.pack(side = RIGHT)
 
 w = tkinter.Button(windows, text = "Button")
-w.grid( side = BOTTOM)
+# w.grid( side = BOTTOM)
 # w.grid()
 
 # # w1.grid()

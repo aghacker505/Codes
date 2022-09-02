@@ -14,5 +14,10 @@ def sum(a, b):
 
 x = int(input('Enter the first number: '))
 y = int(input('Enter the second number: '))
-
 print('Sum is: ', sum(x, y))
+
+# as we know, we can reuse the function 
+a = sum(12, 12)
+print('Sum is: ', a)
+
+#but here we need to define input function every time we call the function

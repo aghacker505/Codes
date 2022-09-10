@@ -2,12 +2,8 @@
 using namespace std;
 
 void max(int a, int b, int c){
-    cout<<"Enter first number: ";
-    cin>>a;
-    cout<<"Enter second number: ";
-    cin>>b;
-    cout<<"Enter third number: ";
-    cin>>c;
+    cout<<"Enter numbers to compare: ";
+    cin>>a>>b>>c;
     if (a>b){
         if (a>c){
             cout<<"Largest number is: "<<a;

@@ -15,4 +15,4 @@ f = Frame(root, height = 1080, width = 1920, bg = "black", cursor = "cross")
 #attach frame to the root
 f.pack()
 
-root,mainloop()
+root.mainloop()

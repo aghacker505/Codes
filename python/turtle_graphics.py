@@ -1,4 +1,4 @@
 from sketchpy import library as lib
 
-s = lib.arijeet()
+s = lib.rdj()
 s.draw()

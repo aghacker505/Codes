@@ -30,7 +30,7 @@ void main()
         for(j=0; j<size-i-1; j++){
             if (a[j]>a[j+1])
             {
-                a[j] = temp;
+                temp = a[j];
                 a[j] = a[j+1];
                 a[j+1] = temp;
             }

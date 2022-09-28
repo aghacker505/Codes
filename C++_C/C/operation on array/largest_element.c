@@ -31,6 +31,6 @@ void main()
         }
     }
 
-    printf("Smallest element of the array is: %d", max);
+    printf("Largest element of the array is: %d", max);
     getch();
 }

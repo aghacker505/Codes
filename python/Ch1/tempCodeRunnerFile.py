@@ -1,0 +1,1 @@
+rint("The number is non-palindrome")

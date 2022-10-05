@@ -8,5 +8,5 @@ a = linspace(0, 10, 5)
 
 print('a = ', a)
 
-a1 = linspace(0, 10, 100)  #here elements are divide into 100 elements of the array 
-print('a1 =', a1)
+# a1 = linspace(0, 10, 100)  #here elements are divide into 100 elements of the array 
+# print('a1 =', a1)

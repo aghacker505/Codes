@@ -5,7 +5,7 @@
 from numpy import *
 
 a = logspace(1, 4, 5)
-# print(a)
+print(a)
 
 n = len(a)
 #repeat from 0 to n-1 times

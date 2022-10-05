@@ -1,6 +1,7 @@
 from numpy import *
 
 #arange(start, stop, stepsize)
+#this arange function is used to arange the elements in a particular order
 a = arange(2, 11, 2)
 #start from 2
 #stop at 10 (11 not included)

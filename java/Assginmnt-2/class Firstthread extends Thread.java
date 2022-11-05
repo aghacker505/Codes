@@ -1,4 +1,4 @@
-class Firstthread extends Thread
+class FirstThread extends Thread
 {
     public void run()
     {
@@ -28,5 +28,16 @@ class SecondThread extends Thread{
             System.out.println(i);
         }
         System.out.println("Second thread finished");
+    }
+}
+class Assign2_IT_3A_B1
+{
+    public static void main(String args[])
+    {
+        FirstThread a1 = new FirstThread();
+        SecondThread b1 = new SecondThread();
+
+        a1.start();
+        b1.start();
     }
 }

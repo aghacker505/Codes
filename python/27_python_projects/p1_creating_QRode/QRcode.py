@@ -1,7 +1,7 @@
 import qrcode as qr
 
-img = qr.make("https://github.com/aghacker505")
-img.save("gitprofile.jpg")
+img = qr.make("https://youtu.be/TT5OlqNSbK4")
+img.save("youtube.jpg")
 
 # #for displaying the image
 # from PIL import Image

@@ -3,7 +3,6 @@ import os
 import smtplib
 import time
 import webbrowser
-
 import pyjokes
 import pyttsx3
 import speech_recognition as sr
@@ -17,7 +16,8 @@ def sptext():
         audio = recognizer.listen(source)
         try:
             print('Recognizing...')
-            qurey = recognizer.recognize_google(audio), #language='en-in')
+            qurey = recognizer.recognize_google(audio), 
+            language='en-in'
             print(qurey)
             return qurey
         except sr.UnknownValueError:
